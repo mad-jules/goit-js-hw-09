@@ -36,7 +36,10 @@ img {
 }
 
 .gallery-item {
-  transition: transform, box-shadow, 150ms ease-in-out;
+  transition:
+    transform,
+    box-shadow,
+    150ms ease-in-out;
 }
 
 .gallery-item:hover {
