@@ -47,3 +47,24 @@ img {
 .basicLightbox {
   cursor: pointer;
 }
+
+.back-link,
+.hw-link {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ff10f0;
+  text-decoration: none;
+  font-style: normal;
+  padding: 4px;
+  margin-bottom: 8px;
+}
+
+.back-link:hover,
+.hw-link:hover {
+  outline: 2px solid #cefa05;
+  border-radius: 4px;
+}
